@@ -12,7 +12,7 @@ function click1(event) {
     const goodAmount = parseInt(document.getElementById('amount').value);
 
     if (isNaN(goodAmount) || goodAmount <= 0) {
-        alert('Введите  количество товара');
+        alert('Введите корректное  количество товара');
         return;
     }
 
