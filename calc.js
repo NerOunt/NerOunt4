@@ -22,6 +22,6 @@ function click1(event) {
     res.textContent = 'Стоимость равна ' + totalCost;
 }
 
-// Убедитесь, что форма и обработчик событий подключены
+
 const form = document.getElementById('priceCalculator');
 form.addEventListener('submit', click1);
