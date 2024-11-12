@@ -18,9 +18,9 @@ function click1(event) {
 
     const totalCost = goodPrice * goodAmount;
 
-    const res = document.getElementById('result');
-    res.textContent = 'Стоимость равна ' + totalCost+ 'рублей';
-}
+    const res = document.getElementById('result'); 
+            res.textContent = 'Стоимость равна ' + totalCost + ' рублей'; 
+        }
 window.addEventListener('DOMContentLoaded', function (event) {
   console.log("DOM fully loaded and parsed");
   let b = document.getElementById("my-button");
