@@ -23,7 +23,7 @@ function click1(event) {
         }
 window.addEventListener('DOMContentLoaded', function (event) {
   console.log("DOM fully loaded and parsed");
-  let b = document.getElementById("my-button");
+  let b = document.getElementById("calcul");
   b.addEventListener("click", onClick);
 });
 
